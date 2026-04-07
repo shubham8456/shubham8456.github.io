@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const repo = 'portfolio.github.io'
+const repo = 'shubham8456.github.io'
 const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig: NextConfig = {
