@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) Portfolio project bootstrapped with [`cr
 
 ## Getting Started
 
-First, run the development server:
+If `node lts/krypton` is installed, run the development server using:
 
 ```bash
 npm run dev
