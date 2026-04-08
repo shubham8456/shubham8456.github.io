@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer style={{ display: "flex", justifyContent: "center", fontSize: "0.8rem", marginTop: "25px" }}>
+    <footer style={{ display: "flex", justifyContent: "center", fontSize: "0.8rem", marginTop: "25px", paddingBottom: "20px" }}>
       <span style={{ marginRight: "10px" }}>© {new Date().getFullYear()} Shubham Rawat</span>
       <nav aria-label="Bottom navigation">
         <ul style={{ display: "flex", listStyle: "none", gap: "10px" }}>

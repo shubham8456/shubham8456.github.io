@@ -7,7 +7,7 @@ import Card from "./components/card";
 export default function Home() {
 
   return (
-    <main style={{ maxWidth: "900px", margin: "0 auto", padding: "40px 20px" }}>
+    <main className="min-h-screen w-full flex flex-col items-center py-2 px-2">
       <Header/>
       <Card/>
       {/*<Project/>*/}

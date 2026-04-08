@@ -9,14 +9,14 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full flex md:flex-row items-center justify-between p-4  md:px-20 md:py-5 bg-white shadow-[0_4px_15px_0_rgba(71,85,105,0.5)] z-[100]" style={{ background: "var(--foreground)" }}>
+    <header className="fixed top-0 left-0 w-full flex md:flex-row items-center justify-between p-4 md:px-20 md:py-5 bg-white shadow-[0_4px_15px_0_rgba(71,85,105,0.5)] z-[100]" style={{ background: "var(--foreground)" }}>
 
-      <Link href="/" className={`${montserrat.className} text-lg md:text-[1.25rem] font-[200] tracking-[0.1rem] uppercase no-underline text-inherit mb-2 md:mb-0`}>
+      <Link href="/" className={`${montserrat.className} text-lg md:text-[1.25rem] font-[200] tracking-[0.1rem] uppercase no-underline text-inherit`}>
         SHUBHAM RAWAT
       </Link>
 
       <nav aria-label="Main navigation">
-        <ul className="flex list-none gap-3 md:gap-[10px] items-center text-sm md:text-base">
+        <ul className="flex list-none gap-3 md:gap-2.5 items-center text-sm md:text-base">
           <li className="hover:text-gray-500 transition-colors">
             <a href="https://lnky.short.gy/resume" target="_blank" rel="noreferrer">Resume</a>
           </li>
@@ -31,7 +31,7 @@ const Header = () => {
 
             {/* Dropdown Menu */}
             {isOpen && (
-              <div className="absolute right-[-20px] md:right-0 mt-6 w-64 rounded-lg p-4 shadow-[0_4px_15px_0_rgba(71,85,105,0.5)] z-[110]" style={{ background: "var(--foreground)" }}>
+              <div className="absolute -right-2 md:right-0 md:mr-2 mt-6 w-64 rounded-lg p-4 shadow-[0_4px_15px_0_rgba(71,85,105,0.5)] z-[110]" style={{ background: "var(--foreground)" }}>
                 <p className="text-[10px] md:text-xs font-semibold text-gray-400 tracking-widest mb-2">GET IN TOUCH</p>
                 <a href="mailto:shubham8456@outlook.com" className="block text-xs md:text-sm py-2 border-b border-gray-500 hover:text-gray-500 transition-colors">
                   shubham8456@outlook.com

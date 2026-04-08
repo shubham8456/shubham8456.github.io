@@ -12,10 +12,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.card {
-   padding: 40px;
-   margin-top: 100px;
-   border-radius: 12px;
-   background: var(--foreground);
-   box-shadow: 0 1px 15px 0 rgba(71, 85, 105, 0.4);
+.profile-photo {
+  clip-path: none;
+}
+
+@media (min-width: 768px) {
+  .profile-photo {
+    clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
 }
